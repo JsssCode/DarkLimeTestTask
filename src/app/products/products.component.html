@@ -1,7 +1,0 @@
-
-<div class="products">
-  <ng-container *ngFor="let product of products$ | async">
-    <app-product [product]="product"></app-product>
-  </ng-container>
-</div>
-<app-loading-shade [isLoadingResults]="dataLoading$ | async"></app-loading-shade>
